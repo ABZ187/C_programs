@@ -6,7 +6,7 @@ void main(){
     int n,m,f,i;
     printf("\nEnter the beginning of the range. ");
     scanf("%d",&n);
-    printf("\nEnter the beginning of the range. ");
+    printf("\nEnter the ending of the range. ");
     scanf("%d",&m);
     for(;n<m;n++){
         for(i=2; i<=sqrt(n);i++){
@@ -15,7 +15,6 @@ void main(){
                 f=1;
                 break;
             }
-            // printf("\n%d %d %d",n,i,f);
         }
         if(f==0){
         printf("\n%d is prime number",n);

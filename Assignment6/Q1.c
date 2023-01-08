@@ -15,7 +15,6 @@ void main(){
         }
         else if(b%4==0){
             printf("\n%d is leap year",b);
-
         }
         ++b;
     }
