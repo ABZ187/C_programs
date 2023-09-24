@@ -3,8 +3,6 @@
 #define n 10
 
 int front=0, rear=-1;
-// arr = address of array
-// ele = element to enqueue
 void enqueue(char *arr,int ele){
     if(rear<n){
         arr[++rear] = ele;
